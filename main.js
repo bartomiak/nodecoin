@@ -14,6 +14,12 @@ class Block {
     }
 }
 
-let block = new Block(1, new Date(), 'elo')
+class Blockchain {
+    constructor() {
+        this.chain = [this.genesisBlock()]
+    }
 
-console.log(block)
+    genesisBlock() {
+        return new Block(0, new Date(), 'genesis', '0')
+    }
+}
