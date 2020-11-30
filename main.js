@@ -36,16 +36,5 @@ class Blockchain {
 
 let nodecoin = new Blockchain()
 nodecoin.addBlock(new Block(0, 'eloszka'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
-nodecoin.addBlock(new Block(1, 'dupa'))
 
 console.log(nodecoin)
