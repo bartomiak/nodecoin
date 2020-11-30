@@ -1,1 +1,1 @@
-# nodechain
+# nodecoin
